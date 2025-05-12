@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact </title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  
+
+.contact-info {
+align-items: center;
+}
+
+.contact-info h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.icons > div {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-form {
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 30px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f2f2f2;
+}
+
+.contact-form button {
+ 
+  padding: 10px;
+  background: #0047cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: red;
+}
+
+
+
+</style>
+<body>
+    <header>
+        <a  href="index.html" class="logo">S</a>
+        <nav>
+          <ul>
+            <li><a href="profile.html">KIRAN</a></li>
+            <li><a href="#">SOCIALS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+        <button class="notify-btn">NOTIFY ME</button>
+      </header>
+    <div class="main-content">
+      <div class="contact-info">
+        <h1>GET IN TOUCH WITH US</h1>
+        <p>We're here to help you with any questions or concerns</p>
+
+      <form class="contact-form">
+        <label>Full Name :</label>
+        <input type="text" placeholder="Your name">
+
+        <label>Phone Number :</label>
+        <input type="text" placeholder="Your phone number">
+
+        <label>Message :</label>
+        <textarea placeholder="Your message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
